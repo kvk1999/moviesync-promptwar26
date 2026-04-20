@@ -39,12 +39,3 @@ gcloud run deploy moviesync --source . --port 8080 --allow-unauthenticated --reg
 ```
 
 ---
-
-<div align="center">
-  <b>Made with ❤️ by Dr. Abhishek 🚀</b><br>
-  <i>Future of Cloud is Here</i><br><br>
-  
-  <a href="https://instagram.com/drabhishek.5460">📸 Instagram</a> &nbsp;&bull;&nbsp;
-  <a href="https://twitter.com/DAbhishek5460">🐦 X (Twitter)</a> &nbsp;&bull;&nbsp;
-  <b>💼 LinkedIn:</b> dr-abhishek
-</div>
