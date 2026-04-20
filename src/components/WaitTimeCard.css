@@ -1,0 +1,122 @@
+.wait-card {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideIn 0.5s ease-out backwards;
+}
+
+.wait-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  color: var(--text-main);
+  opacity: 0.8;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.facility-name {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+  min-height: 2.5rem;
+}
+
+.wait-info {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.wait-time {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.wait-unit {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.status-indicator {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.status-text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Status Colors */
+.status-good .wait-time,
+.status-good .status-text {
+  color: var(--status-good);
+}
+.status-good .status-dot {
+  background-color: var(--status-good);
+  box-shadow: 0 0 10px var(--status-good);
+}
+.status-good:hover {
+  box-shadow: 0 4px 30px rgba(34, 197, 94, 0.2);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.status-medium .wait-time,
+.status-medium .status-text {
+  color: var(--status-med);
+}
+.status-medium .status-dot {
+  background-color: var(--status-med);
+  box-shadow: 0 0 10px var(--status-med);
+}
+.status-medium:hover {
+  box-shadow: 0 4px 30px rgba(250, 204, 21, 0.2);
+  border-color: rgba(250, 204, 21, 0.3);
+}
+
+.status-high .wait-time,
+.status-high .status-text {
+  color: var(--status-high);
+}
+.status-high .status-dot {
+  background-color: var(--status-high);
+  box-shadow: 0 0 10px var(--status-high);
+}
+.status-high:hover {
+  box-shadow: 0 4px 30px rgba(239, 68, 68, 0.2);
+  border-color: rgba(239, 68, 68, 0.3);
+}
