@@ -37,5 +37,10 @@ To deploy straight from the Google Cloud Shell:
 ```bash
 gcloud run deploy moviesync-promptwar26 --source . --port 8080 --allow-unauthenticated --region us-central1
 ```
-https://moviesync-promptwar26-356725275435.us-central1.run.app
+
 ---
+
+## DEPLOY LINK
+```
+https://moviesync-promptwar26-356725275435.us-central1.run.app
+```
