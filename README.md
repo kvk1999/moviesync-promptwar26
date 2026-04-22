@@ -17,7 +17,7 @@ To get this project running on your own machine:
    ```
 2. **Navigate into the project directory:**
    ```bash
-   cd moviesync
+   cd moviesync-promptwar26
    ```
 3. **Install the required dependencies:**
    ```bash
