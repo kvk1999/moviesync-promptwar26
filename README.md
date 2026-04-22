@@ -35,7 +35,7 @@ This project includes a perfectly optimized multi-stage `Dockerfile` making it p
 
 To deploy straight from the Google Cloud Shell:
 ```bash
-gcloud run deploy moviesync --source . --port 8080 --allow-unauthenticated --region us-central1
+gcloud run deploy moviesync-promptwar26 --source . --port 8080 --allow-unauthenticated --region us-central1
 ```
 
 ---
