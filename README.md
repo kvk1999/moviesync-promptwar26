@@ -41,6 +41,5 @@ gcloud run deploy moviesync-promptwar26 --source . --port 8080 --allow-unauthent
 ---
 
 ## DEPLOY LINK
-```
+
 https://moviesync-promptwar26-356725275435.us-central1.run.app
-```
